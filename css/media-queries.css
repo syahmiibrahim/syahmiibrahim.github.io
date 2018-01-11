@@ -108,6 +108,7 @@
       top: 0;
       right: 0;
    }
+   
    #nav-wrap > a {
 	   width: 48px;
 		height: 48px;
@@ -121,9 +122,9 @@
       text-shadow: none;
       color: transparent;
 
-      position: relative;
+
       top: 0px;
-      right: 30px;
+      right: 15px;
    }
 
 	#nav-wrap > a:before,
@@ -141,6 +142,7 @@
 	#nav-wrap:not( :target ) > a:first-of-type,
 	#nav-wrap:target > a:last-of-type  {
 	   display: block;
+      border-radius: 3px;
 	}
 
    /* hide menu panel */
@@ -160,8 +162,9 @@
 	#nav-wrap:target > ul#nav	{
 	   display: block;
       padding: 30px 20px 48px 20px;
-      background: #1f2024;
+      background: #5b32b4;
       margin: 0 30px;
+      border-radius: 3px;
       clear: both;
    }
 
