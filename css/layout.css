@@ -382,6 +382,11 @@ ul#nav li.current a { color: #fff; }
   	-webkit-animation: jquery 2s ease;
 }
 
+.ui {
+    width: 71%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
 @-moz-keyframes laravel {
   0%   { width: 0px;  }
   100% { width: 68%;  }
